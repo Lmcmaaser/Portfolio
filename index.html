@@ -3,7 +3,7 @@
 <head>
     <title>Portfolio HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <!--<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">-->
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
@@ -15,24 +15,33 @@
     </nav>
     <main role="main">
         <header role="banner">
-            <h1>Hi, my name is Lauren. Welcome to my portfolio!</h1>
+            <h1>Hi, my name is Lauren.</h1>
+            <h2>Welcome to my portfolio!</h2>
         </header>
 
-        <section>
-            <h2>Bio <a name="Bio"></a></h2>
-            <img alt="Picture of Lauren"> 
-            <p>About Me</p>
-            <p>About My Work</p>
+        <section class="bio-section">
+            <h3 class="bio">Bio <a name="Bio"></a></h3>
+            <div class="bio-content">
+                <img class="face" src="ThinkfulProPic.png" alt="Picture of Lauren">
+                <div class="about-content">
+                    <p class="about-me">About Me</p>
+                    <p>I am a cat and plant caretaker, baker, and full-stack web developer.</p>
+                    <p class="about-work">About My Work</p>
+                    <p>I work with Python, HTML, CSS, XML, JavaScript, jQuery, and JSON.</p>
+                </div>
+             </div>  
         </section>
 
-        <section>
-            <h2>Projects<a name="Projects"></a></h2>
-            <img alt="Screenshot of Resource Sustainability quiz">
-            <p>Resource Sustainability Quiz</p>
+        <section class="project-section">
+            <h3>Projects<a name="Projects"></a></h3>
+            <img class="quiz-pic" src="quiz-app-snip11-19-19.png" alt="Screenshot of Resource Sustainability quiz">
+            <p class="project-title">Resource Sustainability Quiz</p>
+            <p>Test your knowledge of sustainable resources with this quiz app, built using HTML, CSS, and jQuery. </p>
         </section>
 
-        <section>
-            <h3>Contact<a name="Contact"></a></h3>
+        <section class="contact-section">
+            <h4>Contact<a name="Contact"></a></h4>
+            <address><a href="mailto:lmcmaaser@gmail.com">Email</a></address>
             <p>Github: <a href="https://github.com/Lmcmaaser" > Lmcmaaser</a></p>
             <p>LinkedIn: <a href="www.linkedin.com/in/lauren-maaser-96250157" > Lauren Maaser</a></p>
         </section>
