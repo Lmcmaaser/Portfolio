@@ -12,25 +12,23 @@ body {
   line-height: 1.5;
 }
 
-nav {
+#navbar {
   position: fixed;
   display: inline-block;
   top: 0;
   left: 0;
   right: 0;
   z-index: 10;
-  padding: 1% 0;
+  padding: 20px 10px;
+  transition: 0.4s;
   background-color: orange; 
+  color: white;
 }
 
 nav a {
   color: white;
   font-size: 16px;
   padding-right: 5px;
-}
-
-.headline {
-  color: white;
 }
 
 header {
@@ -83,6 +81,10 @@ section {
   border-radius: 8px;
 }
 
+p.project-links {
+  display: inline-block;
+}
+
 .about-me {
   font-weight: bold;
 }
@@ -108,23 +110,29 @@ address {
 }
 
 @media only screen and (min-width: 600px) {
-  .headline {
-    position: absolute;
-    left: 10px;
-  }
-
-  nav a {
-    text-align: right;
-    position: relative;
-  }
   .face {
     width: 30%;
   }
 }
 
 @media only screen and (min-width: 1000px) {
+  #navbar {
+    display: inline-block;
+  }
+
+  .headline {
+    text-align: left;
+    position: absolute;
+  }
+
+  .nav-links {
+    text-align: right;
+    position: relative;
+  }
   header {
     margin-top: 80px;
+    margin-left: 45px;
+    margin-right: 45px;
     border: solid;
     border-color:orange;
     padding: 10px;
@@ -161,5 +169,22 @@ address {
   .about-content {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .project-section {
+    border-color: orange;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .contact-section{
+    border-color: orange;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  footer {
+    border: solid;
+    border-color: orange;
   }
 }
