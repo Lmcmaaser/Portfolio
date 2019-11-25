@@ -46,6 +46,7 @@ h2, h3 {
 }
 
 section {
+  position: relative;
   border: solid;
   border-color: white;
   padding: 10px;
@@ -53,6 +54,11 @@ section {
   margin-top: 15px;
   margin-right: 20px;
   margin-left: 20px;
+}
+
+#Bio, #Projects {
+  position: absolute;
+  top: -80px;
 }
 
 p {
@@ -138,6 +144,11 @@ address {
     border: solid;
     border-color:orange;
     padding: 10px;
+  }
+
+  #Bio, #Projects {
+    position: absolute;
+    top: -50px;
   }
 
   .bio-header {
