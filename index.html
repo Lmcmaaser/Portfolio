@@ -6,39 +6,41 @@
     <!--<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">-->
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
-    <nav role="navigation" id="navbar">
+    <nav id="navbar">
         <div class="headline">Lauren Maaser - Portfolio</div>
         <div class="nav-links">
             <a href="#Bio">Bio</a>
             <a href="#Projects">Projects</a>
             <a href="#Contact">Contact</a>
-        </div>
-        
+        </div>   
     </nav>
-    <main role="main">
-        <header role="banner">
+
+    <main>
+        <header>
             <h1>Hi, my name is Lauren.</h1>
             <h2>Welcome to my portfolio!</h2>
         </header>
 
-        <section class="bio-section">
-            <h3 class="bio">Bio <a name="Bio"></a></h3>
+        <section><a id="Bio"></a>
+            <h2 class="bio-header">Bio</h2>
             <div class="bio-content">
-                <img class="face" src="ThinkfulProPic.png" alt="Picture of Lauren">
+                <img class="face" src="ThinkfulProPic.PNG" alt="Picture of Lauren">
                 <div class="about-content">
-                    <p class="about-me">About Me</p>
-                    <p>I am a cat and plant caretaker, baker, and full-stack web developer.</p>
-                    <p class="about-work">About My Work</p>
-                    <p>I work with Python, HTML, CSS, XML, JavaScript, jQuery, and JSON.</p>
+                    <h4 class="about-me">About Me</h4>
+                    <p>I am a cat and plant caretaker, baker, and web developer. </p>
+                    <p>I have exceptional communication skills, and a passion for designing accessible front-end designs.</p>
+                    <h4 class="about-work">About My Work</h4>
+                    <p>I am skilled in Python, HTML, CSS, XML, JavaScript, jQuery, and JSON.</p>
                 </div>
              </div>  
         </section>
 
-        <section class="project-section">
-            <h3>Projects<a name="Projects"></a></h3>
+        <section><a id="Projects"></a>
+            <h2>Projects</h2>
             <img class="quiz-pic" src="quiz-app-snip11-19-19.png" alt="Screenshot of Resource Sustainability quiz">
-            <p class="project-title">Resource Sustainability Quiz</p>
+            <h4 class="project-title">Resource Sustainability Quiz</h4>
             <p>Test your knowledge of sustainable resources with this quiz app, built using HTML, CSS, and jQuery. </p>
             <div class="project-links">
                 <a href="https://github.com/Lmcmaaser/quizApp" > Github</a>
@@ -47,8 +49,8 @@
             
         </section>
 
-        <section class="contact-section">
-            <h4>Contact<a name="Contact"></a></h4>
+        <section><a id="Contacts"></a>
+            <h2>Contact<a name="Contact"></a></h2>
             <div class="contact-content">
                 <address>Email: <a href="mailto:lmcmaaser@gmail.com">lmcmaaser@gmail.com</a></address>
                 <p>Github: <a href="https://github.com/Lmcmaaser" > Lmcmaaser</a></p>
@@ -56,7 +58,7 @@
             </div> 
         </section>
     </main>
-    <footer role="content-info">Created by Lauren Maaser</footer>
+    <footer>Created by Lauren Maaser</footer>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
     <script src="index.js"></script>
 </body>

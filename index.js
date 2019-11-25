@@ -7,3 +7,9 @@ function scrollFunction() {
         document.getElementById("navbar").style.padding = "20px 10px";
     } 
 }
+
+jQuery(document.links) 
+
+.filter(function() { 
+    return this.hostname != window.location.hostname; }) 
+    .attr('target', '_blank');
