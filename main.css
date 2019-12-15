@@ -81,6 +81,14 @@ p {
   border-radius: 8px;
 }
 
+.wordInspo-pic {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 8px;
+}
+
 p.project-links {
   display: inline-block;
 }
