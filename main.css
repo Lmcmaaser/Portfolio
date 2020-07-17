@@ -35,6 +35,15 @@ main {
 nav a {
   font-size: 16px;
   padding-right: 5px;
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: red;
 }
 
 header {
