@@ -22,8 +22,8 @@
     <main>
         <header>
             <h1>Hi, my name is Lauren.</h1>
-            <div>I am a Full Stack Web Developer.</div>
-            <div>Welcome to my portfolio!</div>
+            <p>I am a Full Stack Web Developer.</p>
+            <p>Welcome to my portfolio!</p>
         </header>
 
         <section>
@@ -32,7 +32,7 @@
             <div class="about-content">
                 <img class="face" src="ThinkfulProPic.PNG" alt="Picture of Lauren">
                 <div>
-                    <p>I am a cat and plant caretaker, baker, and full-stack developer. </p>
+                    <p>I am a cat and plant caretaker, baker, and full-stack developer.</p>
                     <p>I have exceptional communication skills, and a passion for designing accessible and efficient full-stack apps.</p>
                 </div>
              </div>
@@ -56,31 +56,74 @@
           </div>
           <div class="skills-box">
             <div class="skills-image">
-              <img class="icon" src="PNG/react.png" alt="React icon">
+              <img class="icon" src="PNG/postgresql.png" alt="Postgresql icon">
             </div>
-            <p>I use Python.</p>
+            <p>I use relational Database Management Systems, such as PostgreSQL and SQLite, to optimize data storage and retrieval, and expand the capabilities of my web apps.</p>
           </div>
-          <p>I am skilled in Javascript, Python, XML, React, jQuery, and JSON.</p>
+          <div class="skills-box">
+            <div class="skills-image">
+              <img class="icon" src="PNG/github.png" alt="Github icon">
+            </div>
+            <p>I have extensive experience in using the CLI with Git and Github for my open-source projects, including it's version control, package installation, and collaboration functions.</p>
+          </div>
         </section>
 
         <section>
-            <a id="Projects"> </a>
-            <h2>Projects</h2>
-            <img class="quiz-pic" src="quiz-app-snip11-19-19.png" alt="Screenshot of Resource Sustainability quiz">
-            <h3 class="project-title">Resource Sustainability Quiz</h3>
-            <p>Test your knowledge of sustainable resources with this quiz app, built using HTML, CSS, and jQuery. </p>
-            <div class="project-links">
-                <a href="https://github.com/Lmcmaaser/quizApp" target="_blank"> Github</a>
-                <a href="https://lmcmaaser.github.io/quizApp/" target="_blank"> Demo</a>
-            </div>
-            <img class="wordInspo-pic" src="wordInspoScreenShot1.png" alt="Screenshot of WordInspo web app">
-            <img class="wordInspo-pic" src="wordInspoScreenShot2.png" alt="Screenshot of WordInspo web app">
-            <h3 class="project-title">WordInspo</h3>
-            <p>Improve your writing with WordInspo! Search for a keyword, request the synonyms or antonyms, and recieve a visual word cloud display of the synonyms or antonyms. Built using HTML, CSS, and jQuery. </p>
-            <div class="project-links">
-                <a href="https://github.com/Lmcmaaser/wordInspo" target="_blank"> Github</a>
-                <a href="https://lmcmaaser.github.io/quizApp/" target="_blank"> Demo</a>
-            </div>
+          <a id="Projects"> </a>
+          <h2>Projects</h2>
+            <h3 class="project-header">React Projects</h3>
+              <div class="projects-box">
+                <h4 class="project-title">Oyez!</h4>
+                <img class="oyez-pic" src="oyezPortfolio3.png" alt="Screenshot of the Oyez! app home page">
+                <img class="oyez-pic" src="oyezPortfolio4.png" alt="Screenshot of a pie chart showing the percentage of COVID-19 cases diagnosed by either a doctor, test, or self-diagnosed by zip code">
+                <p>
+                  Oyez is designed to help users track the spread of COVID-19 in their local community. <br />
+                  It tracks COVID-19 cases by state and zipcode, giving users the tools to better protect themselves and their families when going out in public.
+                </p>
+                <p>
+                  Built with Javascript, JSX, CSS, ReactJS, Node.js, Express, and PostgreSQL.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/Lmcmaaser/oyez-client" target="_blank"> Github</a>
+                    <a href="https://oyez-client.vercel.app/" target="_blank"> Demo</a>
+                </div>
+              </div>
+              <div class="projects-box">
+                <h4 class="project-title">FindAPet</h4>
+                <img class="pet-pic" src="findapetPortfolio1.png" alt="Screenshot of the FindAPet app home page">
+                <img class="pet-pic" src="findapetPortfolio2.png" alt="Screenshot of the FindAPet app page for adding a pet to the database">
+                <p>
+                  FindAPet helps animal shelter employees manage all of their shelter pets' information in one easy to use and convenient location. As a user, you can add, search for, update, and delete any pet in the database.
+                </p>
+                <p> Built with Javascript, JSX, CSS, ReactJS, Node.js, Express, and PostgreSQL.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/Lmcmaaser/findapet-client" target="_blank">Github</a>
+                    <a href="https://findapet-client.now.sh/" target="_blank">
+                      Demo
+                    </a>
+                </div>
+              </div>
+            <h3 class="project-header">Javascript Projects</h3>
+              <div class="projects-box">
+                <h4 class="project-title">WordInspo</h4>
+                <img class="wordInspo-pic" src="wordInspoScreenShot1.png" alt="Screenshot of WordInspo web app">
+                <img class="wordInspo-pic" src="wordInspoScreenShot2.png" alt="Screenshot of WordInspo web app">
+                <p>Improve your writing with WordInspo! Search for a keyword, request the synonyms or antonyms, and recieve a visual word cloud display of the synonyms or antonyms. Built using HTML, CSS, and jQuery. </p>
+                <div class="project-links">
+                    <a href="https://github.com/Lmcmaaser/wordInspo" target="_blank"> Github</a>
+                    <a href="https://lmcmaaser.github.io/quizApp/" target="_blank"> Demo</a>
+                </div>
+              </div>
+              <div class="projects-box">
+                <h4 class="project-title">Resource Sustainability Quiz</h4>
+                <img class="quiz-pic" src="quiz-app-snip11-19-19.png" alt="Screenshot of Resource Sustainability quiz">
+                <div>Test your knowledge of sustainable resources with this quiz app. Built using HTML, CSS, and jQuery. </div>
+                <div class="project-links">
+                    <a href="https://github.com/Lmcmaaser/quizApp" target="_blank"> Github</a>
+                    <a href="https://lmcmaaser.github.io/quizApp/" target="_blank"> Demo</a>
+                </div>
+              </div>
         </section>
 
         <section>
