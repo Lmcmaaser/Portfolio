@@ -38,11 +38,11 @@ nav a {
   color: black;
 }
 
-a:link {
+nav a:link {
   color: black;
 }
 
-a:hover {
+nav a:hover {
   color: red;
 }
 
