@@ -1,15 +1,26 @@
-* {
+/*mobile view*/
+
+/* * {
   box-sizing: border-box;
-}
+} */
 
 body {
-  font-family: "consolas",
-  sans-serif; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "futura",
+  sans-serif;
   font-size: 20px;
   color:black;
-  background-color: darkslateblue;
+  background-color: black;
   text-align: center;
   line-height: 1.5;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #navbar {
@@ -21,7 +32,9 @@ body {
   z-index: 10;
   padding: 20px 10px;
   transition: 0.4s;
-  background-color: orange; 
+  background-color: #7DB5A9;
+  border: 5px solid #7DB5A9;
+  border-radius: 8px;
 }
 
 nav a {
@@ -33,8 +46,10 @@ header {
   margin-top: 120px;
   margin-right: 20px;
   margin-left: 20px;
-  padding: 6% 0;
+  padding: 20px;
   background-color: white;
+  border: 5px solid white;
+  border-radius: 8px;
 }
 
 h1 {
@@ -47,18 +62,46 @@ h2, h3 {
 
 section {
   position: relative;
-  border: solid;
-  border-color: white;
-  padding: 10px;
   background-color: white;
+  border: 5px solid white;
+  border-radius: 8px;
+  padding: 10px;
   margin-top: 15px;
   margin-right: 20px;
   margin-left: 20px;
 }
 
-#Bio, #Projects {
+#About, #Projects {
   position: absolute;
-  top: -80px;
+  top: -50px;
+}
+
+.skills-box {
+  display: flex;
+  align-self: start;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-color: #7DB5A9;
+  margin-bottom: 10px;
+}
+
+.skills-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background color: white;
+}
+
+.icon {
+  width: 1.75em;
+  height: 1.75em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  margin: 10px;
 }
 
 p {
@@ -97,10 +140,6 @@ p.project-links {
   font-weight: bold;
 }
 
-.about-work {
-  font-weight: bold;
-}
-
 .project-title {
   font-size: 22px;
 }
@@ -117,13 +156,12 @@ address {
   font-style: normal;
 }
 
-@media only screen and (min-width: 600px) {
+/* desktop view */
+@media screen and (min-width: 600px) {
   .face {
     width: 30%;
   }
-}
 
-@media only screen and (min-width: 1000px) {
   #navbar {
     display: inline-block;
   }
@@ -137,51 +175,43 @@ address {
     text-align: right;
     position: relative;
   }
+
   header {
-    margin-top: 80px;
+    margin-top: 90px;
     margin-left: 45px;
     margin-right: 45px;
-    border: solid;
-    border-color:orange;
     padding: 10px;
   }
 
   section {
     margin-left: 45px;
     margin-right: 45px;
-    border: solid;
-    border-color:orange;
     padding: 10px;
   }
 
-  #Bio, #Projects {
+   #Skills, #Projects {
     position: absolute;
     top: -50px;
   }
 
-  .bio-header {
+  .about-header {
     border: solid;
-    border-color:orange;
+    border-color: #7DB5A9;
   }
-  
-  .bio-content {
+
+  .about-content {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border: solid;
-    border-color:orange;
+    border-color: #7DB5A9;
     background-color: white;
     margin: 20px;
   }
-  
+
   .face {
     width: 20%;
     margin: 0;
-  }
-
-  .about-content {
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   footer {
