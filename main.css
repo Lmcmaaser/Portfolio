@@ -133,6 +133,8 @@ section {
 }
 
 .projects-box {
+  display: flex;
+  flex-direction: column;
   border: solid;
   border-color: #7DB5A9;
   background-color: white;
@@ -141,6 +143,7 @@ section {
 }
 
 p {
+  font-size: 18px;
   margin: 10px;
 }
 
@@ -164,7 +167,7 @@ p {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 60%;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -174,7 +177,7 @@ p {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 60%;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -184,7 +187,7 @@ p {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 60%;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -204,6 +207,7 @@ p.project-links {
 
 footer {
   margin: 15px 15px 0px 15px;
+  font-size: 16px;
   padding: 1% 0;
   background-color: #7DB5A9;
   border: 5px solid #7DB5A9;
@@ -270,6 +274,53 @@ address {
   .projects-box {
     margin: 20px 30px 20px 30px;
     padding: 10px;
+  }
+
+  .image-box {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .quiz-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 8px;
+  }
+
+  .wordInspo-pic {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+  }
+
+  .pet-pic {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+  }
+
+  .oyez-pic {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+  }
+
+  p {
+    font-size: 20px;
   }
 
   footer {
